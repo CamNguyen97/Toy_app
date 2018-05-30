@@ -1,0 +1,17 @@
+inherit_from: .rubocop_todo.yml
+Rails:
+  Enabled: true
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80
+
+Rails/ScopeArgs:
+  Include:
+    - app/models/**/*.rb
+
+Rails/Validation:
+  Include:
+    - app/models/**/*.rb
