@@ -17,7 +17,7 @@ default: &default
 
 development:
   <<: *default
-  # database: <%= ENV["database"] %>
+  database: <%= ENV["database"] %>
   username: <%= ENV["username"] %>
   password: <%= ENV["password"] %>
   host: <%= ENV["host"] %>
@@ -27,7 +27,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  # database: <%= ENV["database"] %>
+  database: <%= ENV["database"] %>
   username: <%= ENV["username"] %>
   password: <%= ENV["password"] %>
   host: <%= ENV["host"] %>

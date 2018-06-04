@@ -24,11 +24,11 @@ module Todoapp
     config.i18n.default_locale = :en
     config.active_record.raise_in_transactional_callbacks = true
     config.generators do |g|
-      g.template_engine false
-      g.test_framework false
-      g.assets false
-      g.helper false
-      g.orm :active_record, migration: false
+      # g.template_engine false
+      # g.test_framework false
+      # g.assets false
+      # g.helper false
+      # g.orm :active_record, migration: false
     end
   end
 end
