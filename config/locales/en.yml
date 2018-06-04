@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "hello world"
+  title: "| Ruby on Rails Tutorial Sample app"
+  static_pages:
+    home:
+      title: "home"
+      content_home: "Sample app"
+      content_home1: "This is the home page for the"
+      content_home2: "Ruby on Rails Tutorial"
+      content_home3: "sample application."
+    help:
+      title: "help"
+    about:
+      title: "about"
