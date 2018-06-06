@@ -31,8 +31,15 @@ en:
   contact: "Contact"
   new: "News"
   the: "The"
+  users: "Users"
+  account: "Account"
   sign_up_form: "Sign up"
   submit: "Create my account"
+  new_user: "New user?"
+  danger_session: "Invalid email/password combination"
+  profile: "Profile"
+  setting: "Settings"
+  log_out: "Log out"
   static_pages:
     home:
       title: "Home"
