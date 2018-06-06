@@ -40,6 +40,7 @@ en:
   profile: "Profile"
   setting: "Settings"
   log_out: "Log out"
+  remember: "Remember me on this computer"
   static_pages:
     home:
       title: "Home"
