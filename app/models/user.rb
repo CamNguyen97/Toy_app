@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   attr_accessor :remember_token
-  before_save { self.email = email.downcase }
+  before_create { self.email = email.downcase }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :name, presence: true
   validates :email, presence: true, length: { maximum: 255 },
@@ -33,5 +33,11 @@ class User < ActiveRecord::Base
 
   def forget
     update_attribute(:remember_digest, nil)
+  end
+
+  def User.digest(string)
+    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
+                                                  BCrypt::Engine.cost
+    BCrypt::Password.create(string, cost: cost)
   end
 end

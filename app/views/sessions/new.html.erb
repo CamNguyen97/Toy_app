@@ -1,4 +1,4 @@
-<% provide(:title, t("log_in"))%>
+<% provide(:title, t("log in")) %>
 <h1><%= t("log_in") %></h1>
 
 <div class="row">
@@ -19,6 +19,6 @@
       <%= f.submit t("log_in"), class: "btn btn-primary" %>
     <% end %>
 
-    <p><%= t("new_user") %><%= link_to "Sign up now!", signup_path %></p>
+    <p><%= t("new_user") %><%= link_to t("sign_up"), signup_path %></p>
   </div>
 </div>
