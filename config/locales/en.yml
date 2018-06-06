@@ -41,6 +41,7 @@ en:
   setting: "Settings"
   log_out: "Log out"
   the_form: "The form contains"
+  danger_user: "Error!"
   static_pages:
     home:
       title: "Home"
