@@ -41,6 +41,7 @@ en:
   setting: "Settings"
   log_out: "Log out"
   remember: "Remember me on this computer"
+  the_form: "The form contains"
   static_pages:
     home:
       title: "Home"
