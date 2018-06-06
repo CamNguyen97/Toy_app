@@ -31,6 +31,10 @@ en:
   contact: "Contact"
   new: "News"
   the: "The"
+  sign_up_form: "Sign up"
+  submit: "Create my account"
+  the_form: "The form contains"
+  danger_user: "Error!"
   static_pages:
     home:
       title: "Home"
