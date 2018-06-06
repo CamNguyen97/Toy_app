@@ -22,9 +22,18 @@
 en:
   hello: "hello world"
   title: "Ruby on Rails Tutorial Sample app"
+  sign_up: "Sign up now!"
+  rails_logo: "Rails logo"
+  home: "Home"
+  help: "Help"
+  log_in: "Log in"
+  about: "About"
+  contact: "Contact"
+  new: "News"
+  the: "The"
   static_pages:
     home:
-      title: "home"
+      title: "Home"
       content_home: "Sample app"
       content_home1: "This is the home page for the"
       content_home2: "Ruby on Rails Tutorial"
