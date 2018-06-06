@@ -39,23 +39,6 @@ en:
       content_home2: "Ruby on Rails Tutorial"
       content_home3: "sample application."
     help:
-      title: "Help"
-      content_help: "Sample app"
-      content_help1: "This is the home page for the"
-      content_help2: "Ruby on Rails Tutorial"
-      content_help3: "sample application."
+      title: "help"
     about:
-      title: "About"
-      content_about: "Sample app"
-      content_about1: "This is the home page for the"
-      content_about2: "Ruby on Rails Tutorial"
-      content_about3: "sample application."
-    contact:
-      title: "Contact"
-      content_contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      content_contact1: "contact page"
-  user:
-    new:
-      title: "Sign up"
-      content_new: "This will be a signup page for new users."
-
+      title: "about"
