@@ -42,6 +42,14 @@ en:
   log_out: "Log out"
   remember: "Remember me on this computer"
   the_form: "The form contains"
+  danger_user: "Error!"
+  update_profile: "Update your profile"
+  change: "Submit"
+  check_login: "Please log in."
+  users: "All users"
+  delete: "delete"
+  you_sure: "You sure?"
+  del_user: "User deleted"
   static_pages:
     home:
       title: "Home"
