@@ -50,6 +50,9 @@ en:
   delete: "delete"
   you_sure: "You sure?"
   del_user: "User deleted"
+  check_mail: "Please check your email to activate your account."
+  account_active: "Account activated!"
+  account_danger: "Invalid activation link"
   static_pages:
     home:
       title: "Home"
