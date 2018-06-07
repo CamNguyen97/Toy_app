@@ -42,6 +42,7 @@ en:
   log_out: "Log out"
   remember: "Remember me on this computer"
   the_form: "The form contains"
+  danger_user: "Error!"
   static_pages:
     home:
       title: "Home"

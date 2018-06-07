@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find_by(id: params[:id])
+    @user = User.find(params[:id])
   end
 
   def new
@@ -14,6 +14,7 @@ class UsersController < ApplicationController
       flash[:success] = t("title")
       redirect_to @user
     else
+      flash[:danger] = t("danger_user")
       render 'new'
     end
   end
